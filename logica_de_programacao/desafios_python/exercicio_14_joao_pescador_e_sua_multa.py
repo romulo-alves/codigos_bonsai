@@ -1,8 +1,8 @@
 print ("Qual a quantidade de peixes? (em kg)")
 
-peso_do_peixe = float(input())
+peso_do_peixe = float(input()) # bom nome da variável
 
-excesso = peso_do_peixe - 50
+excesso = peso_do_peixe - 50 # O número 50 pode ser armazenado em uma variável
 
 multa = 0
 
