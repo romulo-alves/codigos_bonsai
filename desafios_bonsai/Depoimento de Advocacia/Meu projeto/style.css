@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EFEFEF;
+    color: #3A444E;
+}
+
+/* Formatação Textos */
+
+.titulo-depoimentos {
+    font-size: 36pt;
+    text-align: center;
+    padding: 50px;
+}
+
+.nome-cliente {
+    font-size: 32pt;
+}
+
+.texto-depoimento {
+    font-size: 50px;
+    padding: 0;
+}
+
+/* Formtação Flexbox */
+
+.depoimentos {
+    display: flex;
+    margin: 30px;
+}
+
+.depoimentos img {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    color: #DACB8D;
+}
+
+.depoimento-1 {
+    width: 20em;
+    height: auto;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.depoimento-2 {
+    width: 20em;
+    height: auto;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.depoimento-3 {
+    width: 20em;
+    height: auto;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.nome-cliente {
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+
+.texto-depoimento {
+    font-size: 10pt;
+}
