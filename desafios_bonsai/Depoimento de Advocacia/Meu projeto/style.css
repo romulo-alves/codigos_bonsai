@@ -2,11 +2,15 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #EFEFEF;
-    color: #3A444E;
 }
 
 /* Formatação Textos */
+
+.depoimentos {
+    background-color: #EFEFEF;
+    color: #3A444E;
+    padding: 2em;
+}
 
 .titulo-depoimentos {
     font-size: 36pt;
@@ -14,18 +18,20 @@ body {
     padding: 50px;
 }
 
-.nome-cliente {
-    font-size: 32pt;
+h1.nome-cliente {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 1em;
 }
 
-.texto-depoimento {
-    font-size: 50px;
-    padding: 0;
+h2.texto-depoimento {
+    font-size: 12pt;
+    font-weight: lighter;
 }
 
-/* Formtação Flexbox */
+/* Formatação Flexbox */
 
-.depoimentos {
+.container-depoimentos{
     display: flex;
     margin: 30px;
 }
@@ -33,34 +39,14 @@ body {
 .depoimentos img {
     width: 30px;
     height: 30px;
-    padding: 20px;
-    position: relative;
-    left: 0;
-    color: #DACB8D;
 }
 
-.depoimento-1 {
-    width: 20em;
+.depoimento-especifico {
     height: auto;
-    margin: 20px;
-    padding: 0px;
+    margin-top: 20px;
     text-align: center;
-}
-
-.depoimento-2 {
-    width: 20em;
-    height: auto;
-    margin: 20px;
-    padding: 0px;
-    text-align: center;
-}
-
-.depoimento-3 {
-    width: 20em;
-    height: auto;
-    margin: 20px;
-    padding: 0px;
-    text-align: center;
+    padding: 0 3em;
+    justify-content: space-between;
 }
 
 .nome-cliente {
