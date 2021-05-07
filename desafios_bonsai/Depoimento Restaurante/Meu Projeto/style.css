@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div-superior {
+    background-color: #BC1823;
+    padding: 3em 5em 6em 5em;
+    position: relative;
+}
+
+.div-superior h1 {
+    font-size: 36pt;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    padding-top: 0.5em;
+}
+
+.container-depoimentos {
+    display: flex;
+    background-color: #EFEFEF;
+    padding-bottom: 3em;
+}
+
+.texto-depoimento {
+    padding: 30px;
+}
+
+.texto-depoimento h2 {
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.texto-depoimento p {
+    text-align: center;
+    color: #606060;
+}
+
+.pontuacao-estrelas {
+    padding-top: 1em;
+    padding-left: 8em;
+}
+
+.estrela-img {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.foto-cliente {
+    position: relative;
+    display: block;
+    margin-left: 8em;
+    margin-top: -6em;
+}
+
+.foto-cliente img {
+    border-radius: 50%;
+    width: 8em;
+}
+
+
